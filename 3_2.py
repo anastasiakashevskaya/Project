@@ -1,0 +1,10 @@
+average_number1 = input('Введите первое число: ')
+number1 = int(average_number1)
+average_number2 = input('Введите второе число: ')
+number2 = int(average_number2)
+average_number3 = input('Введите третье число: ')
+number3 = int(average_number3)
+average_final = float((number1+number2+number3)/3)
+average_final = round(average_final, 3)
+print(average_final)
+
