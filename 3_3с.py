@@ -1,0 +1,6 @@
+name = input('Введите Ваше имя: ')
+age = input('Введите Ваш возраст: ')
+age=int(age)
+city = input('Введите Ваш город: ')
+welcome = f"Приветствуем Вас, {name}, {age}, из города {city}."
+print(welcome)
