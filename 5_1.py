@@ -1,10 +1,12 @@
 n = int(input('количество: '))
 m = int(input("кратное: "))
 k = int(input ('не больше: '))
-counter = 0
-for i in range(1, k):
-    if i % m == 0:
-        counter +=1
+i = k
+count = 0
+while count < n:
+    if not i % m:
+        count += 1
         print(i)
+    i += 1
 
 
