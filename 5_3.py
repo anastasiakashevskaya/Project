@@ -1,4 +1,12 @@
 n = int(input('Введите диапозон: '))
-for i in range(n):
-    if i % 2 == 0:
-        print(str(i[0:5], end ='\n'))
+
+count = 0
+for i in range(2, n+1, 2):
+    if count < 5:
+        print (i, end=" ")
+        count +=1
+    else:
+        print()
+        print(i, end=" ")
+        count = 1
+
